@@ -3,7 +3,6 @@ import './App.css';
 import React, { Component } from 'react';
 
 import HomePage from './pages/homepage'
-import logo from './logo.svg';
 
 class App extends Component {
   render() {
