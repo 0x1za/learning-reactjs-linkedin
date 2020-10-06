@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 
+import AddCommentForm from '../components/AddCommentForm';
 import ArticlesList from '../components/ArticlesList'
 import CommentsList from '../components/CommentsList';
 import NotFoundPage from './NotFoundPage';
@@ -25,7 +26,7 @@ const ArticlePage = ({ match }) =>{
     const otherArticles = articleContent.filter(article => article.name !== name);
     
     return (
-        <>
+        <> 
             <h1>{article.title}</h1>
             <UpvotesSection articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={setArticleInfo}/>
             <p>This post has been upvoted {articleInfo.upvotes} times</p>
@@ -33,6 +34,7 @@ const ArticlePage = ({ match }) =>{
                 <p key={key}>{paragraph}</p>
                 ))
             }
+            <AddCommentForm articleName={name} setArticleInfo={setArticleInfo}/>
             <CommentsList comments={articleInfo.comments} />
             <h3>Related Articles:</h3>
             <ArticlesList articles={otherArticles}/>
