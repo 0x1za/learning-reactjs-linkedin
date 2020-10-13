@@ -2,17 +2,17 @@
 Learning how to create an interface from React components, develop a Node.js server, tie in a MongoDB database, and deploying the site on Amazon Web Services.
 
 ### Learning Objectives
-[x] Creating the app component
-[x] Using React-Router links
-[x] Setting up an Express server
-[x] Route parameters in Express
-[x] Adding the comments functionality
-[x] Installing and adding MongoDB to your project
-[x] Rewriting the endpoints
-[x] Adding React hooks
-[x] Adding buttons and forms
-[x] Pushing code to GitHub
-[x] Running a full-stack app on AWS
+- [x] Creating the app component
+- [x] Using React-Router links
+- [x] Setting up an Express server
+- [x] Route parameters in Express
+- [x] Adding the comments functionality
+- [x] Installing and adding MongoDB to your project
+- [x] Rewriting the endpoints
+- [x] Adding React hooks
+- [x] Adding buttons and forms
+- [x] Pushing code to GitHub
+- [x] Running a full-stack app on AWS
 
 ## Running Project
 ### `frontend`
