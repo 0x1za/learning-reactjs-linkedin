@@ -1,6 +1,8 @@
 ## React: Creating and Hosting a Full-Stack Site
 Learning how to create an interface from React components, develop a Node.js server, tie in a MongoDB database, and deploying the site on Amazon Web Services.
 
+![Screenshot](https://github.com/mwizasimbeye11/learning-reactjs-linkedin/blob/master/screenshot.png?raw=true)
+
 ### Learning Objectives
 - [x] Creating the app component
 - [x] Using React-Router links
